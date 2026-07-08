@@ -55,5 +55,5 @@ export function countElementsInAnArrayOfUnknown(
  * Complete the types and write the logic
  */
 export function arrayOfStringsToArrayOfStringLength(array: string[]) {
-  // Write your code here
+  return array.map(el => el.length)
 }
