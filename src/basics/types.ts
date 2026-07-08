@@ -42,9 +42,9 @@ age: number,
  * You can deduce the return type of the function
  */
 export function countElementsInAnArrayOfUnknown(
-  array: unknown[],
-) /** Return type ? */ {
-  // Write your code here
+  array: any[],
+): number {
+  return array.length
 }
 
 /**
