@@ -45,5 +45,12 @@ export function returnObjects(): [User1, User2] {
  * - A field for the user address, witch is an object containing street, city and zip code fields
  */
 export type YourDetailedUser = {
-  // Write your code here
+ user_name: string;
+  birth_date: Date;
+  emails: string[];
+  address: {
+    street: string;
+    city: string;
+    zip: number;
+  };
 };
