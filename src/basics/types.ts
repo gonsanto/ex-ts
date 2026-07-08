@@ -29,7 +29,9 @@ export function addingStringsWithTypes(
  * - The correct return type
  */
 export function addTheRequiredTypes(
-) /** Return type ? */ {
+user: string,
+age: number,
+): number {
   // The purpose of this function is not important, you just have to complete the types
   return user.length * age;
 }
