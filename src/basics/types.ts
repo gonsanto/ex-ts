@@ -29,8 +29,8 @@ export function addingStringsWithTypes(
  * - The correct return type
  */
 export function addTheRequiredTypes(
-user: string,
-age: number,
+  user: string,
+  age: number,
 ): number {
   // The purpose of this function is not important, you just have to complete the types
   return user.length * age;
@@ -42,9 +42,9 @@ age: number,
  * You can deduce the return type of the function
  */
 export function countElementsInAnArrayOfUnknown(
-  array: any[],
+  array: unknown[],
 ): number {
-  return array.length
+  return array.length;
 }
 
 /**
@@ -55,5 +55,5 @@ export function countElementsInAnArrayOfUnknown(
  * Complete the types and write the logic
  */
 export function arrayOfStringsToArrayOfStringLength(array: string[]) {
-  return array.map(el => el.length)
+  return array.map((el) => el.length);
 }

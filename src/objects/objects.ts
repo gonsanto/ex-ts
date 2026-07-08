@@ -32,9 +32,9 @@ export function returnObjects(): [User1, User2] {
     },
     {
       first_name: "",
-      last_name: ""
-    }
-  ]
+      last_name: "",
+    },
+  ];
 }
 
 /**
@@ -45,7 +45,7 @@ export function returnObjects(): [User1, User2] {
  * - A field for the user address, witch is an object containing street, city and zip code fields
  */
 export type YourDetailedUser = {
- user_name: string;
+  user_name: string;
   birth_date: Date;
   emails: string[];
   address: {

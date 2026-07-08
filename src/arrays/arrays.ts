@@ -19,9 +19,9 @@ export function filterStringByLength(
   minLength: number,
   maxLength: number,
 ): string[] | [] {
-  return array.filter(el => el.length <= maxLength && el.length >= minLength )
+  return array.filter((el) => el.length <= maxLength && el.length >= minLength);
 }
 
 export function getOnlyTheLowercaseLettersOfTheString(string: string): string {
-  return string.split("").filter(el => el === el.toLowerCase()).join("");
+  return string.split("").filter((el) => el === el.toLowerCase()).join("");
 }
